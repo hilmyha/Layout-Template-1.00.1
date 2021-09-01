@@ -1,6 +1,7 @@
 * {
   font-family: sans-serif;
   margin: 0;
+  scroll-behavior: smooth;
 }
 
 nav {
@@ -136,6 +137,18 @@ footer .copyright {
 }
 footer .copyright h1, footer .copyright h2, footer .copyright h3, footer .copyright h4, footer .copyright p, footer .copyright a {
   color: white;
+}
+
+.scroll-top {
+  cursor: pointer;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  background-color: gainsboro;
 }
 
 @media screen and (max-width: 768px) {

@@ -1,6 +1,7 @@
 *{
     font-family: sans-serif;
     margin: 0;
+    scroll-behavior: smooth;
 }
 nav{
     display: flex;
@@ -134,6 +135,17 @@ footer{
             color: white;
         }
     }
+}
+.scroll-top{
+    cursor: pointer;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    background-color: gainsboro;
 }
 
 
